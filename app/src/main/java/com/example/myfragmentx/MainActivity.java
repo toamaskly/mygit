@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("自己","我做出了第一次修改");
+        Log.i("自己","测试我现在和远程仓库同步了吗");
     }
 
     public void jumpFragment(View view) {
