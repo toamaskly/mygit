@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void jumpFragment(View view) {
         Intent intent=new Intent(this,SecondActivity.class);
         startActivity(intent);
+        Log.i("其他人","测试其他人是否能和仓库同步");
     }
 }
 
