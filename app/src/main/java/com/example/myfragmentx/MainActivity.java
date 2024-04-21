@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,SecondActivity.class);
         startActivity(intent);
         Log.i("我自己","测试其他人是否能和仓库同步");
+        Log.i("我自己","故意制造冲突哈哈");
     }
 }
 
